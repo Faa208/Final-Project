@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-/* Main title color */
+/* Main page title */
 h1 {
   color: #2aa66a;
 }
@@ -22,7 +22,7 @@ p {
   max-width: 900px;
 }
 
-/* Simple hero background */
+/* Hero section (simple, not professional) */
 .hero-section {
   background: #ffffff;
   border-bottom: 1px solid #eeeeee;
@@ -33,4 +33,19 @@ img {
   border: 1px solid #e6e6e6;
   background: white;
   padding: 4px;
+}
+
+/* Buttons a little nicer */
+.btn {
+  border-radius: 20px;
+}
+
+/* Footer icons */
+.footer-icon {
+  font-size: 20px;
+  color: #333;
+}
+
+.footer-icon:hover {
+  color: #2aa66a;
 }
