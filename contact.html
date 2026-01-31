@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Projects</title>
+  <title>Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Favicon -->
@@ -33,8 +33,8 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -42,50 +42,32 @@
 
   <section class="hero-section py-5">
     <div class="container">
-      <h1 class="display-5 fw-bold">My Projects</h1>
-      <p class="lead">Some things I have tried and practiced.</p>
+      <h1 class="display-5 fw-bold">Contact Me</h1>
+      <p class="lead">If you want to contact me, please fill in the form below.</p>
     </div>
   </section>
 </header>
 
-<main class="container py-5">
+<main class="container my-5">
   <section>
-    <div class="row g-4">
-
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h2 class="h5 card-title">Project One</h2>
-            <p class="card-text">My first practice project using HTML and CSS.</p>
-            <span class="badge text-bg-success">HTML</span>
-            <span class="badge text-bg-secondary">CSS</span>
-          </div>
-        </div>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" placeholder="Your name">
       </div>
 
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h2 class="h5 card-title">Project Two</h2>
-            <p class="card-text">Learning Bootstrap and page layouts.</p>
-            <span class="badge text-bg-primary">Bootstrap</span>
-            <span class="badge text-bg-secondary">Layout</span>
-          </div>
-        </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="your@email.com">
       </div>
 
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h2 class="h5 card-title">Project Three</h2>
-            <p class="card-text">My final project practice website.</p>
-            <span class="badge text-bg-warning">Final</span>
-            <span class="badge text-bg-secondary">Website</span>
-          </div>
-        </div>
+      <div class="mb-3">
+        <label class="form-label">Message</label>
+        <textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
       </div>
 
-    </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
   </section>
 </main>
 
@@ -108,5 +90,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
