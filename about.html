@@ -5,75 +5,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About Me</title>
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">MySite</a>
-    <ul class="navbar-nav ms-auto">
-      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-      <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-      <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-</nav>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">MySite</a>
 
-<!-- Header -->
-<header class="py-5">
-  <div class="container">
-    <h1 class="display-5 fw-bold">About Me</h1>
-    <p class="lead">
-      This page introduces me and explains the purpose of my final project website.
-    </p>
-  </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section py-5">
+    <div class="container">
+      <h1 class="display-5 fw-bold">About Me</h1>
+      <p class="lead">
+        This page introduces me and explains the purpose of my final project website.
+      </p>
+    </div>
+  </section>
 </header>
 
-<!-- Main Content -->
 <main class="container pb-5">
 
-  <!-- Who I Am -->
-  <section class="mb-5">
+  <section class="my-4">
     <h2 class="h4 fw-bold">Who I Am</h2>
     <p>
-      I am a student learning web development. This website was created as part of my
-      first semester final project to practice HTML, CSS, and Bootstrap 5.
+      I am a student learning web development. This website was created as part of my first semester final project to practice HTML, CSS, and Bootstrap 5.
     </p>
 
-    <img src="image/Study.jpg"
+    <img src="CSS/image/Study.jpg"
          alt="Student studying web development"
          class="img-fluid rounded mt-3"
          style="max-width: 500px;">
   </section>
 
-  <!-- My Interests -->
-  <section class="mb-5">
+  <section class="my-4">
     <h2 class="h4 fw-bold">My Interests</h2>
     <p>
-      In my free time, I enjoy simple activities that help me relax and stay motivated.
-      Being in nature, taking walks, and reading are my favorite hobbies because they
-      help me focus and feel relaxed.
+      In my free time, I enjoy simple activities that help me relax and stay motivated. These activities help me maintain a good balance between studing, personal growth, and recharging. Being in nature, taking walks, and reading are my favorite hobbies becouse they help me focus, learn new things, and feel relaxed.
     </p>
 
-    <div class="row mt-4">
+    <div class="row mt-3">
       <div class="col-md-6 mb-3">
-        <img src="image/Cat-nature.jpg"
-             alt="Cute cat in nature"
-             class="img-fluid rounded">
+        <img src="CSS/image/Cate-nature.jpg" alt="Cute cat" class="img-fluid rounded">
       </div>
-
       <div class="col-md-6 mb-3">
-        <img src="image/reading-books.jpg"
-             alt="Reading books"
-             class="img-fluid rounded">
+        <img src="CSS/image/reading-books.jpg" alt="Reading books" class="img-fluid rounded">
       </div>
     </div>
 
@@ -82,38 +84,38 @@
     </p>
   </section>
 
-  <!-- What I Learned -->
-  <section class="mb-5">
+  <section class="my-4">
     <h2 class="h4 fw-bold">What I Learned</h2>
     <p>
-      Through this project, I learned how to build a multi-page website,
-      link external CSS files, use correct file paths for images,
-      and apply Bootstrap components such as navigation bars,
-      containers, and responsive images.
+      Through this project, I learned how to build a multi-page website, link external CSS files, use correct file paths for images, and apply Bootstrap components such as navigation bars, containers, buttons, and responsive images.
     </p>
   </section>
 
-  <!-- Project Purpose -->
-  <section>
+  <section class="my-4">
     <h2 class="h4 fw-bold">Project Purpose</h2>
     <p>
-      I chose to create a personal website because it allowed me to
-      practice multiple pages, images, and layouts while keeping the
-      content simple and meaningful.
+      I chose to create a personal website because it allowed me to practice multiple pages, images, and layouts while keeping the content simple and meaningful to me.
     </p>
   </section>
 
 </main>
 
-<!-- Footer -->
-<footer class="border-top py-3 text-center">
+<footer class="border-top py-4 text-center">
   <div class="container">
-    <small>© 2026 MySite</small>
+    <p class="mb-2">© 2026 MySite</p>
+
+    <a href="#" class="me-3 text-decoration-none footer-icon">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="#" class="me-3 text-decoration-none footer-icon">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="#" class="text-decoration-none footer-icon">
+      <i class="bi bi-linkedin"></i>
+    </a>
   </div>
 </footer>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
